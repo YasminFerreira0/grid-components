@@ -11,13 +11,13 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Cyan: hsl(179, 62%, 43%)
-- Bright Yellow: hsl(71, 73%, 54%)
+- Cyan: hsl(179, 62%, 43%) -- azul para h1 e caixa02
+- Bright Yellow: hsl(71, 73%, 54%) -- amarelo esverdeado para subtituloDeCaixa01 e botao sing up
 
 ### Neutral
 
-- Light Gray: hsl(204, 43%, 93%)
-- Grayish Blue: hsl(218, 22%, 67%)
+- Light Gray: hsl(204, 43%, 93%) -- azul-claro-acizentado para o fundo do body
+- Grayish Blue: hsl(218, 22%, 67%) --- cor de paragrafo
 
 ## Typography
 

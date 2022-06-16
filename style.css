@@ -1,4 +1,44 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+}
 
+
+/*CAIXA 01*/
+.caixa01 {
+    background-color: white;
+}
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+.subtituloDeCaixa01 {
+    color: hsl(71, 73%, 54%);
+}
+.paragrafoH1 {
+    color: hsl(218, 22%, 67%);
+}
+.singUp {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: bold;
+}
+
+
+/*CAIXA 02--03*/
+h2, .dinheiro, .paragrafoCaixa02, .lista03 {
+    color: white;
+}
+
+/*caixa02*/
+.caixa02 {
+    background-color: hsl(179, 62%, 43%);
+}
+
+/*caixa03*/
+.caixa03 {
+    background-color: hsl(179, 62%, 43%, 0.6);
+}
 
 
 
