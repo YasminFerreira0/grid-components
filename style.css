@@ -4,9 +4,10 @@ body {
     background-color: hsl(204, 43%, 93%);
 }
 
-main {
+.container {
     margin-top: 5%;
     margin-bottom: 5%;
+    
 }
 
 /*CAIXA 01*/
@@ -38,10 +39,12 @@ h2, .dinheiro, .paragrafoCaixa02, .texto03 {
     box-sizing: border-box;
 }
 
+
+
 /*caixa02*/
 .caixa02 {
     background-color: hsl(179, 62%, 43%);
-    width: 22%;
+    width: 20%;
     display: inline-block;
     margin-left: 27%;
     padding: 32px;
@@ -59,9 +62,9 @@ h2, .dinheiro, .paragrafoCaixa02, .texto03 {
 /*caixa03*/
 .caixa03 {
     background-color: hsl(179, 62%, 43%, 0.6);
-    width: 23.5%;
+    width: 22%;
     display: inline-block;
-    padding: 36px;
+    padding: 30px;
     border-bottom-right-radius: 1em;
 }
 .texto03 {
