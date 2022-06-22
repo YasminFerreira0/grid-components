@@ -4,10 +4,19 @@ body {
     background-color: hsl(204, 43%, 93%);
 }
 
+main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 /*CAIXA 01*/
 .caixa01 {
     background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 36px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 h1 {
     color: hsl(179, 62%, 43%);
@@ -18,27 +27,47 @@ h1 {
 .paragrafoH1 {
     color: hsl(218, 22%, 67%);
 }
-.singUp {
-    background-color: hsl(71, 73%, 54%);
-    color: white;
-    font-weight: bold;
-}
+
 
 
 /*CAIXA 02--03*/
-h2, .dinheiro, .paragrafoCaixa02, .lista03 {
+h2, .dinheiro, .paragrafoCaixa02, .texto03 {
     color: white;
+}
+.caixa02, .caixa03 {
+    box-sizing: border-box;
 }
 
 /*caixa02*/
 .caixa02 {
     background-color: hsl(179, 62%, 43%);
+    width: 22%;
+    display: inline-block;
+    margin-left: 27%;
+    padding: 32px;
+    border-bottom-left-radius: 1em;
+}
+.singUp {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 0.5em;
 }
 
 /*caixa03*/
 .caixa03 {
     background-color: hsl(179, 62%, 43%, 0.6);
+    width: 23.5%;
+    display: inline-block;
+    padding: 36px;
+    border-bottom-right-radius: 1em;
 }
+.texto03 {
+    line-height: 6px;
+}
+
 
 
 
