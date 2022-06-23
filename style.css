@@ -7,13 +7,12 @@ body {
 .container {
     margin-top: 5%;
     margin-bottom: 5%;
-    
 }
 
 /*CAIXA 01*/
 .caixa01 {
     background-color: white;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     padding: 36px;
     border-top-left-radius: 1em;
@@ -32,11 +31,13 @@ h1 {
 
 
 /*CAIXA 02--03*/
-h2, .dinheiro, .paragrafoCaixa02, .texto03 {
+h2, .paragrafoCaixa02 {
     color: white;
 }
-.caixa02, .caixa03 {
-    box-sizing: border-box;
+.container02e03 {
+    /*box-sizing: border-box;*/
+    display: flex;
+    justify-content: flex-start;
 }
 
 
@@ -44,31 +45,42 @@ h2, .dinheiro, .paragrafoCaixa02, .texto03 {
 /*caixa02*/
 .caixa02 {
     background-color: hsl(179, 62%, 43%);
-    width: 20%;
-    display: inline-block;
-    margin-left: 27%;
-    padding: 32px;
+    width: 25%;
+    /*display: inline-block;*/
+    margin-left: 22.2%;
+    padding: 20px 0 20px 36px;
     border-bottom-left-radius: 1em;
 }
 .singUp {
     background-color: hsl(71, 73%, 54%);
     color: white;
     font-weight: bold;
+    font-size: 18px;
     border: none;
-    padding: 15px 60px;
+    padding: 20px 100px;
     border-radius: 0.5em;
+}
+.dinheiro {
+    display: inline;
+    color: white;
+    font-size: 50px;
+}
+.textoDinheiro {
+    color: rgba(255, 255, 255, 0.6);
+    display: inline;
 }
 
 /*caixa03*/
 .caixa03 {
     background-color: hsl(179, 62%, 43%, 0.6);
-    width: 22%;
-    display: inline-block;
-    padding: 30px;
+    width: 25%;
+    /*display: inline-block;*/
+    padding: 20px 1px 20px 36px;
     border-bottom-right-radius: 1em;
 }
 .texto03 {
-    line-height: 6px;
+    line-height: 7px;
+    color: rgba(255, 255, 255, 0.658);
 }
 
 
