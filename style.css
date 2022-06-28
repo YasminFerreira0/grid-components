@@ -14,57 +14,60 @@ body {
     background-color: white;
     width: 50%;
     margin: 0 auto;
-    padding: 36px;
+    padding: 40px;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
+
 h1 {
     color: hsl(179, 62%, 43%);
 }
+
 .subtituloDeCaixa01 {
     color: hsl(71, 73%, 54%);
 }
+
 .paragrafoH1 {
     color: hsl(218, 22%, 67%);
 }
-
-
 
 /*CAIXA 02--03*/
 h2, .paragrafoCaixa02 {
     color: white;
 }
+
 .container02e03 {
     /*box-sizing: border-box;*/
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
-
-
 
 /*caixa02*/
 .caixa02 {
     background-color: hsl(179, 62%, 43%);
     width: 25%;
     /*display: inline-block;*/
-    margin-left: 22.2%;
-    padding: 20px 0 20px 36px;
+    /*margin-left: 25%;*/
+    padding: 20px 10px 20px 30px;
     border-bottom-left-radius: 1em;
 }
+
 .singUp {
     background-color: hsl(71, 73%, 54%);
     color: white;
     font-weight: bold;
     font-size: 18px;
     border: none;
-    padding: 20px 100px;
+    padding: 5% 30%;
     border-radius: 0.5em;
 }
+
 .dinheiro {
     display: inline;
     color: white;
     font-size: 50px;
 }
+
 .textoDinheiro {
     color: rgba(255, 255, 255, 0.6);
     display: inline;
@@ -72,24 +75,28 @@ h2, .paragrafoCaixa02 {
 
 /*caixa03*/
 .caixa03 {
-    background-color: hsl(179, 62%, 43%, 0.6);
+    background-color: rgba(42, 178, 176, 0.75);
     width: 25%;
     /*display: inline-block;*/
-    padding: 20px 1px 20px 36px;
+    padding: 20px 10px 20px 30px;
     border-bottom-right-radius: 1em;
 }
+
 .texto03 {
     line-height: 7px;
     color: rgba(255, 255, 255, 0.658);
 }
 
-
-
-
-/*footer*/
+/*FOOTER*/
 .attribution {
     font-size: 11px; text-align: center;
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/*RESPONSIVO*/
+@media screen and (max-width: 750px) {
+
 }
