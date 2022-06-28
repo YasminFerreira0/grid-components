@@ -83,7 +83,7 @@ h2, .paragrafoCaixa02 {
 }
 
 .texto03 {
-    line-height: 7px;
+    line-height: 10px;
     color: rgba(255, 255, 255, 0.658);
 }
 
@@ -97,6 +97,25 @@ h2, .paragrafoCaixa02 {
 }
 
 /*RESPONSIVO*/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+    .container02e03 {
+        display: block;
+    }
+    .caixa02, .caixa03 {
+        width: 50%;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    .caixa02 {
+        border-bottom-left-radius: 0;
+    }
+    .caixa03 {
+        border-bottom-left-radius: 1em;
+    }
+}
 
+@media screen and (max-width: 400px){
+    .texto03 {
+        line-height: 12px;
+    }
 }
